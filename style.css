@@ -36,6 +36,8 @@ body {
     flex-direction: row;
     width: 670px;
     height: 440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -69,6 +71,7 @@ h1 {
 
 .parametr {
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
 li {
@@ -76,7 +79,10 @@ li {
 }
 
 .vybrana {
-    color: red;
+    color: #f15f42;
+    border-style: solid;
+    border-color: #f15f42;
+    border-radius: 100%;
 }
 
 a {
@@ -95,8 +101,42 @@ a {
 
 .detaily {
     background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 0 20px 20px 0;
 }
 
 .vizual {
     background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
+    position: relative;
+    width: 1000px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px 0 0 20px;
+}
+
+.bota {
+    position: absolute;
+    left: -100px;
+    bottom: -10px;
+}
+
+.popis {
+    padding-bottom: 30px;
+    border-bottom-color: #06d7c1;
+    border-bottom-style: solid;
+}
+
+.cenovka {
+    position: absolute;
+    left: 150px;
+    top: 340px;
+    text-align: right;
+}
+
+.akce {
+    position: absolute;
+    top: 370px;
+}
+
+.logo {
+    padding-bottom: 30px;
 }
